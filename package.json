@@ -15,6 +15,6 @@
   "scripts": {
   	"start":"node server.js",
     "test": "mocha",
-    "cover": "istanbul cover test/test.js"
+    "coverage": "istanbul cover test/test.js"
   }
 }
