@@ -15,6 +15,6 @@
   "scripts": {
   	"start":"node server.js",
     "test": "mocha",
-    "coverage": "istanbul cover test/test.js"
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -R --Spec"
   }
 }
