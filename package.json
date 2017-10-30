@@ -10,9 +10,11 @@
     "mocha": "^3.2.0",
     "should": "^11.2.0",
     "express": "^4.14.1"
+    
   },
   "scripts": {
   	"start":"node server.js",
-    "test": "mocha"
+    "test": "mocha",
+    "cover": "istanbul cover test/test.js"
   }
 }
